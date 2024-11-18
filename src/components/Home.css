@@ -1,0 +1,179 @@
+/* Home.css */
+
+body {
+    background-color: #f8f9fa;
+    /* Màu nền sáng cho trang */
+    font-family: Arial, sans-serif;
+    /* Font chữ chung */
+}
+
+.container {
+    margin-top: 20px;
+    /* Khoảng cách từ trên xuống */
+}
+
+.book-store-title {
+    font-size: 2.5rem;
+    /* Kích thước chữ tiêu đề */
+    margin-bottom: 20px;
+    color: #007bff;
+    /* Màu xanh cho tiêu đề */
+    font-weight: bold;
+    /* Chữ đậm */
+}
+
+.search-input {
+    margin-bottom: 20px;
+    /* Khoảng cách dưới ô tìm kiếm */
+}
+
+.author-genre-header {
+    margin-top: 30px;
+    /* Khoảng cách trên cho tiêu đề tác giả và thể loại */
+    font-weight: bold;
+    color: #555;
+    /* Màu chữ tối hơn */
+}
+
+.book-card {
+    transition: transform 0.2s;
+    /* Hiệu ứng chuyển động khi hover */
+    border: 1px solid #e0e0e0;
+    /* Đường viền nhẹ */
+    border-radius: 8px;
+    /* Bo góc cho thẻ */
+    overflow: hidden;
+    /* Ẩn phần thừa */
+    background-color: white;
+    /* Nền trắng cho thẻ sách */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng nhẹ */
+    margin-bottom: 20px;
+    /* Khoảng cách giữa các thẻ sách */
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+    /* Phóng to khi hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Hiệu ứng bóng mạnh hơn khi hover */
+}
+
+.book-card img {
+    border-bottom: 1px solid #e0e0e0;
+    /* Đường viền dưới cho ảnh */
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.modal-body {
+    background-color: #fdfdfd;
+    /* Màu nền cho modal */
+}
+
+.modal-body img {
+    border-radius: 8px;
+    /* Bo góc cho ảnh trong modal */
+    margin-bottom: 15px;
+    /* Khoảng cách dưới ảnh */
+}
+
+.modal-footer {
+    justify-content: center;
+    /* Canh giữa nút đóng */
+}
+
+.modal-footer .btn {
+    margin: 0 5px;
+    /* Khoảng cách giữa các nút */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Màu nền cho nút chính */
+    border: none;
+    /* Không có viền */
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    /* Màu nền cho nút phụ */
+    border: none;
+    /* Không có viền */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .book-card {
+        margin-bottom: 20px;
+        /* Khoảng cách giữa các thẻ sách trên màn hình nhỏ */
+    }
+
+    .book-card img {
+        height: 150px;
+        /* Điều chỉnh chiều cao cho ảnh trên màn hình nhỏ */
+    }
+
+    .modal-body img {
+        height: auto;
+        /* Đảm bảo ảnh trong modal tự động điều chỉnh chiều cao */
+    }
+}
+.add-to-cart-button {
+    position: relative;
+    background-color: transparent;
+    /* Nền trong suốt */
+    border: none;
+    /* Không có viền */
+    cursor: pointer;
+    /* Con trỏ sẽ thay đổi khi di chuột qua */
+}
+
+.add-to-cart-button .fas.fa-shopping-cart {
+    font-size: 1.5rem;
+    /* Kích thước biểu tượng */
+    color: #007bff;
+    /* Màu sắc cho biểu tượng */
+    transition: transform 0.2s;
+    /* Hiệu ứng chuyển tiếp khi hover */
+}
+
+.add-to-cart-button:hover .fas.fa-shopping-cart {
+    transform: scale(1.1);
+    /* Phóng to biểu tượng khi hover */
+}
+
+/* Thêm kiểu cho các icon shopping cart */
+.fas.fa-shopping-cart {
+    position: relative;
+    display: inline-block;
+    /* Hiển thị theo dòng */
+    vertical-align: middle;
+    /* Căn giữa với text */
+}
+
+.cart-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.cart-button {
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    /* Adjust this value as needed */
+    right: -10px;
+    /* Adjust this value as needed */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+}

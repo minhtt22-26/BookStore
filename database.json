@@ -1,0 +1,157 @@
+{
+  "books": [
+    {
+      "title": "Đắc Nhân Tâm 1234",
+      "authorId": 1,
+      "genreId": 1,
+      "price": "200000",
+      "description": "Cuốn sách này hướng dẫn độc giả cách tạo mối quan hệ tốt với mọi người.",
+      "image": "https://tiki.vn/blog/wp-content/uploads/2023/08/phan-4-dac-nhan-tam-1024x1024.jpg",
+      "id": 1
+    },
+    {
+      "title": "Người Giàu Nhất Thành Babylon",
+      "authorId": 3,
+      "genreId": 2,
+      "price": 150000,
+      "description": "Câu chuyện về sự quản lý tài chính và cách trở thành người giàu có.",
+      "image": "https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/89b9a04bc1594351b82b97adf081549f~tplv-o3syd03w52-origin-jpeg.jpeg?from=476444299",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "Sapiens: Lược Sử Loài Người",
+      "authorId": 2,
+      "genreId": 1,
+      "price": 25000,
+      "description": "Một cái nhìn tổng quan về lịch sử loài người từ thời kỳ nguyên thủy đến hiện đại.",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/435/244/products/sg11134201221202ucumy8655kvff-e77f3ab8-38e3-4fd5-8470-0f8d19a9ba9b.jpg?v=1672971355547"
+    },
+    {
+      "id": 4,
+      "title": "Khi Muôn Vật Đứng Lại",
+      "authorId": 4,
+      "genreId": 1,
+      "yearPublished": 2010,
+      "description": "Cuốn sách chia sẻ hành trình của tác giả vượt qua khó khăn trong cuộc sống.",
+      "rating": 4.3,
+      "reviews": [],
+      "image": "https://chungkhoantriduc.vn/wp-content/uploads/2023/01/muon-kiep-nhan-sinh.jpg",
+      "price": 180000
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Dale Carnegie",
+      "birthYear": 1888,
+      "nationality": "Mỹ"
+    },
+    {
+      "id": 2,
+      "name": "George S. Clason",
+      "birthYear": 1874,
+      "nationality": "Mỹ"
+    },
+    {
+      "id": 3,
+      "name": "Yuval Noah Harari",
+      "birthYear": 1976,
+      "nationality": "Israel"
+    },
+    {
+      "id": 4,
+      "name": "Nick Vujicic",
+      "birthYear": 1982,
+      "nationality": "Úc"
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "name": "Phát triển bản thân"
+    },
+    {
+      "id": 2,
+      "name": "Tài chính"
+    },
+    {
+      "id": 3,
+      "name": "Lịch sử"
+    },
+    {
+      "id": 4,
+      "name": "Cái tôi cao"
+    }
+  ],
+  "orders": [
+    {
+      "orderDate": "2024-11-04T05:43:32.149Z",
+      "totalAmount": 150000,
+      "status": "Pending",
+      "items": [
+        {
+          "bookId": 2,
+          "quantity": 1,
+          "price": 150000,
+          "image": "https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/89b9a04bc1594351b82b97adf081549f~tplv-o3syd03w52-origin-jpeg.jpeg?from=476444299"
+        }
+      ],
+      "phone": "0943424248",
+      "address": "14 ngõ 491 la thành",
+      "id": 1
+    },
+    {
+      "status": "Completed",
+      "id": 2
+    },
+    {
+      "status": "Completed",
+      "id": 3
+    },
+    {
+      "orderDate": "2024-11-05T08:57:44.565Z",
+      "totalAmount": 350000,
+      "status": "Pending",
+      "items": [
+        {
+          "bookId": 1,
+          "quantity": 1,
+          "price": 200000,
+          "image": "https://tiki.vn/blog/wp-content/uploads/2023/08/phan-4-dac-nhan-tam-1024x1024.jpg"
+        },
+        {
+          "bookId": 2,
+          "quantity": 1,
+          "price": 150000,
+          "image": "https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/89b9a04bc1594351b82b97adf081549f~tplv-o3syd03w52-origin-jpeg.jpeg?from=476444299"
+        }
+      ],
+      "phone": "0943424248",
+      "address": "d2 giang vo",
+      "id": 4
+    },
+    {
+      "orderDate": "2024-11-05T09:16:26.045Z",
+      "totalAmount": 580000,
+      "status": "Pending",
+      "items": [
+        {
+          "bookId": 1,
+          "quantity": 2,
+          "price": "200000",
+          "image": "https://tiki.vn/blog/wp-content/uploads/2023/08/phan-4-dac-nhan-tam-1024x1024.jpg"
+        },
+        {
+          "bookId": 4,
+          "quantity": 1,
+          "price": 180000,
+          "image": "https://chungkhoantriduc.vn/wp-content/uploads/2023/01/muon-kiep-nhan-sinh.jpg"
+        }
+      ],
+      "phone": "0943424248",
+      "address": "d2 giang vo",
+      "id": 5
+    }
+  ]
+}

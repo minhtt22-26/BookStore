@@ -1,0 +1,96 @@
+.cart-detail-container {
+    margin: 20px auto;
+    /* Căn giữa container */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f7fa;
+    /* Màu nền nhẹ nhàng */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng cho container */
+    max-width: 800px;
+    /* Giới hạn chiều rộng tối đa */
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    /* Font chữ cho tiêu đề */
+    color: #333;
+    /* Màu chữ tối */
+}
+
+.cart-item {
+    background-color: #ffffff;
+    /* Màu nền cho sản phẩm */
+    border: 1px solid #e0e0e0;
+    /* Đường viền nhạt */
+    border-radius: 8px;
+    /* Bo tròn các góc */
+    padding: 15px;
+    margin: 10px 0;
+    /* Khoảng cách giữa các sản phẩm */
+    display: flex;
+    /* Sử dụng flexbox để căn chỉnh nội dung */
+    transition: box-shadow 0.3s, transform 0.3s;
+    /* Hiệu ứng chuyển động */
+}
+
+.cart-item:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    /* Đổ bóng khi hover */
+    transform: translateY(-2px);
+    /* Nâng lên một chút khi hover */
+}
+
+.cart-item-image {
+    width: 70px;
+    /* Đặt kích thước cho hình ảnh */
+    height: 70px;
+    margin-right: 15px;
+    /* Khoảng cách giữa hình ảnh và nội dung */
+    border-radius: 5px;
+    /* Bo tròn hình ảnh */
+}
+
+.quantity-input {
+    width: 80px;
+    /* Đặt kích thước cho input số lượng */
+    margin-right: 10px;
+    /* Khoảng cách với tổng tiền */
+    border: 1px solid #ced4da;
+    /* Đường viền cho input */
+    border-radius: 5px;
+    /* Bo tròn góc cho input */
+    padding: 5px;
+    /* Padding cho input */
+}
+
+.button-container {
+    margin-top: 20px;
+    /* Khoảng cách trên cùng cho nút */
+}
+
+.btn-primary,
+.btn-danger,
+.btn-success {
+    border-radius: 5px;
+    /* Bo tròn góc cho nút */
+    padding: 10px 20px;
+    /* Padding cho nút */
+    font-weight: bold;
+    /* Chữ đậm cho nút */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Thay đổi màu nền khi hover */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    /* Thay đổi màu nền khi hover */
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    /* Thay đổi màu nền khi hover */
+}

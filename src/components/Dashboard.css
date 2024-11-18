@@ -1,0 +1,28 @@
+/* Dashboard.css */
+
+html,
+body {
+    height: 100%;
+    /* Đảm bảo chiều cao của html và body là 100% */
+    margin: 0;
+    /* Xóa margin mặc định */
+}
+
+.container-fluid {
+    height: 100%;
+    /* Đảm bảo chiều cao của container chiếm toàn bộ chiều cao */
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    /* Màu nền cho sidebar, bạn có thể thay đổi theo ý muốn */
+}
+
+.content {
+    background-color: #d3d3d3;
+    /* Màu xám cho nội dung */
+    height: 100%;
+    /* Đảm bảo chiều cao là 100% */
+    padding: 20px;
+    /* Khoảng cách nội dung */
+}
